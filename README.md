@@ -1,4 +1,3 @@
-Perfeito! Abaixo está **tudo**, absolutamente **100% em Markdown**, incluindo instruções de configuração, personalização, execução, segurança, estrutura do banco de dados e dependências — pronto para você colar diretamente no `README.md`:
 
 ````markdown
 # 📧 Script de Envio de E-mails com SQLite e SMTP
@@ -97,8 +96,3 @@ Não é necessário instalar pacotes externos com `pip`.
 
 Este projeto é livre para uso, modificação e distribuição.
 Adicione uma licença específica se necessário.
-
-```
-
-Se quiser, posso adicionar uma versão com `.env`, separação do código em módulos, ou até mesmo instruções para deployment com Docker ou GitHub Actions. É só me dizer!
-```
