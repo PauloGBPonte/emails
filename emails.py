@@ -1,0 +1,67 @@
+import sqlite3
+def add_email(email):
+    conn = sqlite3.connect('emails.db')
+    c = conn.cursor()
+
+    # Inserir email no banco de dados
+    c.execute("INSERT INTO emails (email) VALUES (?)", (email,))
+    conn.commit()
+
+    conn.close()
+
+
+# Adicionar os 50 emails
+add_email('email1@example.com')
+add_email('email2@example.com')
+add_email('gabeponte20@gmail.com')
+add_email('lucas.prokalil2020@hotmail.com')
+add_email('email3@example.com')
+add_email('email4@example.com')
+add_email('email5@example.com')
+add_email('email6@example.com')
+add_email('email7@example.com')
+add_email('email8@example.com')
+add_email('email10@example.com')
+add_email('email11@example.com')
+add_email('email12@example.com')
+add_email('email13@example.com')
+add_email('email14@example.com')
+add_email('email15@example.com')
+add_email('email16@example.com')
+add_email('email17@example.com')
+add_email('email18@example.com')
+add_email('email19@example.com')
+add_email('email20@example.com')
+add_email('email21@example.com')
+add_email('email22@example.com')
+add_email('email23@example.com')
+add_email('email24@example.com')
+add_email('email25@example.com')
+add_email('email26@example.com')
+add_email('email27@example.com')
+add_email('email28@example.com')
+add_email('email29@example.com')
+add_email('email30@example.com')
+add_email('email31@example.com')
+add_email('email32@example.com')
+add_email('email33@example.com')
+add_email('email34@example.com')
+add_email('email35@example.com')
+add_email('email36@example.com')
+add_email('email37@example.com')
+add_email('email38@example.com')
+add_email('email39@example.com')
+add_email('email40@example.com')
+add_email('email41@example.com')
+add_email('email42@example.com')
+add_email('email43@example.com')
+add_email('email44@example.com')
+add_email('email45@example.com')
+add_email('email46@example.com')
+add_email('email47@example.com')
+add_email('email48@example.com')
+
+
+# Adicione os demais emails...
+
+print("Emails adicionados com sucesso!")
